@@ -1,0 +1,124 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.cl {clear: both;}
+@font-face {
+	font-family: SFUFuturaBold;
+	src: url(../Font/SFUFuturaBold_0.ttf);
+} 
+body {font-family: "RobotoLight"; font-size: 16px;}
+
+/*sprite*/
+.sprite {display: inline-block; background:url(../icon/sprite.png) no-repeat;}
+.sprite.icon-search {width: 27px;height: 27px;background-position: 0px 0px;margin-right: 10px;margin-top: -3px;}
+.sprite.icon-login {width: 27px;height: 27px;background-position: -36px 0px;margin-right: 6px;margin-top: -3px;}
+.sprite.icon-watch {width: 25px;height: 25px; background-position: 0px -71px;margin-left: 105px; margin-top: 20px; }	
+.sprite.icon-bua {width: 26px;height: 29px;background-position: 0px -37px;position: absolute; top:17px;}
+.sprite.icon-heart-red {width: 27px; height: 29px; background-position: -66px -37px;margin-top: 5px;margin-left: 55px; float: left;}
+.sprite.icon-heart-white {width: 29px;height: 29px;background-position: -33px -36px;float: left;}
+.sprite.icon-tw {width: 30px;height: 30px;background-position: -65px 0px;}
+.sprite.icon-fb {width: 30px;height: 30px;background-position: -98px 0px;}
+.sprite.icon-gg {width: 29px;height: 29px;background-position: -98px -36px;}
+.sprite.icon-top {width: 40px;height: 40px;background-position: -29px -67px;float: right;margin-top: 50px;}
+
+.container {width: 1140px; margin: 0 auto;}
+.header {height: 108px; padding: 20px 0px;}
+.logo {float: left;}
+.menu-header {float: right;}
+.login a{text-decoration:none; color:#231f20; float: left;}
+
+.login {float: right;}
+.menu-top {list-style-type: none; margin-top: 20px;}
+.menu-top li {float: left;margin-left: 50px;}
+.menu-top li a {text-decoration: none;font-size: 16px;font-family:"RobotoLight"; color: #231f20;padding-bottom: 3px; border-bottom: 3px solid transparent;display: block;}
+.menu-top li a:hover {border-bottom:3px solid #b0d135; transition: 1.5s;}
+
+.banner {position: relative;width: 100%;overflow: hidden;}
+.screen-banner {width:100%; height: 505px; position: absolute ; top: 0px; left: 0px; background: #ababab; opacity: 0.2; }
+.text-banner {position: absolute; top: 120px; left: 107px; width: 40%; color: #fff;}
+.heading-banner p {font-size: 60px; font-weight: bold; text-transform: uppercase; width: 46%; margin-bottom: 35px;font-family: "SFU Futura"}
+.title-banner p {width: 46%; margin-bottom: 30px; font-family: "RobotoLight"; font-size: 14px;}
+.aucticon {width: 46%;}
+.button-dg  {line-height: 35px; font-size: 15px;font-family: "SFUFuturaBold";width: 138px; height: 35px;background: #b0d135;text-align: center;text-decoration: none; color: #fff; display: block;float: left;text-transform: uppercase;}
+.price {float: right; margin-right: 800px; font-weight: bold; font-size: 14px; margin-top: 10px;text-transform: uppercase;}
+
+.hot-produce {margin-top: 27px;position: relative;}
+.sidebar-hot {width: 360px; height: 390px;background: #d93a2b; float: left;	}
+.border-hot {background: #fff;width: 56px;height: 6px;margin-top: 40px;margin-left: 150px;}
+.text-hot {font-size: 48px;margin-top: 50px; margin-left: 40px; color: #fff;font-family: "SFU Futura";text-transform: uppercase;}
+.br-w {	margin-top: 40px; margin-left: 152px; }
+.text-more {text-align: center;text-transform: uppercase; height: 42px;width: 163px;background: #fbc022;text-decoration: none;color: #fff;line-height: 42px; position: absolute; left: 99px; top:313px;}
+
+.box-content {width: 750px; height: 390px; float: right; position: relative;overflow: hidden;}
+.screen {width: 750px;height: 390px; position: absolute; top : 0px;left: 0px; background: #ababab; opacity: 0.3;}
+.title-box-content {background: #393536;height: 112px;  position: absolute; bottom: 0px;}
+.text-box {float: left; width: 64%;padding-top: 22px;padding-left: 20px;}
+.text-box p {color: #fff;}
+.text-box-right {float: left; width: 36%;padding-top: 30px;}
+.text-box-right a.button-dg {margin-left: 15px;} 
+.title-text-box {color: #fff; font-size: 20px; margin-bottom: 10px;text-transform: uppercase;}
+.text-price {font-size: 14px; font-family: "SFUFuturaBold"; margin-top: 12px;margin-left: 55px; color: #fff; font-weight: bold;text-transform: uppercase;}
+.text-dg {text-decoration: none; color:#fff; width: 137px; height: 34px; background: #b0d135; padding: 10px;}
+
+
+.notice {width: 260px; height: 60px; background: rgba(255, 255, 255, 0.6); position: absolute; top: 25px;left: 1px;}
+.notice-time {float: right;margin-top: 10px; margin-right: 13px;}
+.noti-date {width: 37px;height: 40px; float: left;text-align: center; border-right: 1px solid black;}
+.noti-date:last-child {border: none;}
+.text-noti {font-family: "RobotoLight"; font-size: 12px; color: #231f20;}
+.text-time {font-family:"SFUFuturaBold"; font-size: 18px; font-weight: bold;}
+
+.number-not {background: #fff; height: 60px; width: 96px;line-height: 60px; border-top-right-radius: 30px;border-bottom-right-radius:30px; position: absolute;top: 25px; left: 1px; }
+
+.text-number {font-family:"Oswald";font-size:35px;color: #a7a9ac; margin-left: 18px;}
+
+.list-produce {position: relative;width: 361px;margin-top: 20px;float: left;margin-right: 28px;}
+
+.last-list-produce {margin-right: 0px;}
+.img-produce {width: 361px; height: 294px;overflow: hidden;}
+.screen-list {position: absolute; width: 361px; height: 293px; top : 0px;left: 0px; background: #ababab; opacity: 0.3;}
+.icon-list{position: absolute; left: 0px; bottom:143px; left: 20px;}
+.icon-list a i:hover {background-position: -66px -37px;} 
+.button-list {position: absolute; left: 0px; bottom:140px; left: 110px;}
+.title-list-produce h3 {font-family:"SFUFutura"; font-size: 20px; font-family: bold; margin: 10px 0px;text-transform: uppercase;}
+.title-list-produce  p {font-family:"RobotoLight"; font-size: 14px;}
+.title-list-produce  span {font-family: "SFUFutura"; font-size: 14px; font-weight: bold;color: #999999; float: right;margin-top: 15px;text-transform: uppercase;}
+
+.produce-dg { margin-top: 25px;}
+.sidebar-prod-dg {width: 360px; height: 390px;background: #fbc022; float: left;}
+.sidebar-prod-dg h1 {color: #fff; font-family:"SFU Futura"; font-size: 45px;margin-left: 56px; margin-top: 40px; margin-right: 40px;text-transform: uppercase;}
+.border-dg {background: #fff;width: 56px; height: 6px; margin-top: 37px; margin-left: 56px;}
+.sidebar-prod-dg h2 {color: #fff; font-family:"SFU Futura"; font-size: 21px;margin-left: 56px; margin-top: 34px;text-transform: uppercase;}
+.menu-pro select {width: 311px; height: 42px;color: #231f20; margin-left: 25px; margin-top: 27px; padding: 5px 10px 5px 25px;font-size: 18px;font-family:"RobotoLightn";}
+.menu-pro select option {margin-left: 25px;line-height: 42px; opacity: 0.3;}
+.notice-dg {width: 180px;}
+.sprite.watch {margin-left: 19px;}
+
+.select select {float: right;width: 260px; text-align: center; color: #231f20;}
+.view {margin-left: 490px; margin-top: 45px; margin-bottom: 45px;}
+.view a {width: 163px; height: 42px; background: #fbc022; color: #fff; text-decoration: none; font-size: 18px; font-family:"SFU Futura"; padding: 8px 40px 15px 40px; text-align: center; text-transform: uppercase;}
+
+.service {background:#f2f2f2 ; height: 325px;padding-top: 60px;}
+.sub-service {float: left;width:31%; margin-right: 39px;}
+.last-service{margin: 0px;}
+.img-service {margin-left: 125px;width: 110px;height: 90px; display: block; overflow: hidden;}
+.title-service {text-align: center;margin-top: 30px;margin-bottom: 18px; font-family:"SFUFuturaBold"; font-size: 20px; font-weight: bold;text-transform: uppercase;}
+.text-service { font-size:14px; font-family:"RobotoLight";text-align: center;}
+
+.feedback {height: 325px;border-bottom: 1px solid #d1d3d4;}
+.title-feedback {float: left; width: 55%;padding-top: 50px; margin-left: 40px;}
+.title-feedback h2 {font-weight: bold; font-size: 24px; font-family:"SFUFuturaBold"; text-transform: uppercase;}
+.title-feedback p {width: 70%; font-weight: lighter; font-size: 14px; font-family: "Roboto";}
+.text-feed {margin-top: 20px;}
+.button-feedback a {width: 387px; height: 55px; display: block; text-decoration: none; color: #fff; text-align: center; background: #d93a2b;float: right; font-family: Tahoma; font-size: 18px; font-weight: bold; padding: 15px 0;margin-top: 120px;}
+
+.menu-footer {height: 365px;}
+.sub-menu-footer {float: left;width: 17%;margin-right: 110px;margin-top: 70px;}
+.last-menu {margin: 0px;width: 19%;margin-top: 70px;}
+.sub-menu-footer h3 {font-size: 14px; font-family:"SFU Futura"; text-transform: uppercase;margin-bottom: 15px;}
+.sub-menu-footer p {font-size: 14px; font-family: "Roboto";line-height: 250%; }
+.sub-menu-footer a {text-decoration: none;font-size: 14px; font-family:"Roboto";line-height: 250%;color: #000;display: block;}
+.goto-top { position: fixed;bottom: 0px;right: 113px;}
+.bottom-ft {background: #642e11; height: 67px; line-height: 67px; color: #fff;font-family:"Roboto"; font-size: 12px;}
